@@ -1,0 +1,120 @@
+
+.bus-booking-container {
+    max-width: 500px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  .menu-icon i, .profile-icon i {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  /* Main Options */
+  .main-options {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .option-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .option-button img {
+    width: 40px;
+    height: auto;
+    margin-bottom: 5px;
+  }
+  
+  
+  .booking-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .booking-form h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .booking-form p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .search-button:hover {
+    background-color: #b71c1c;
+  }
+  
+ 
+  .date-options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #1e88e5;
+    cursor: pointer;
+  }
+  
+  .date-options span {
+    padding: 5px 10px;
+    border: 1px solid #1e88e5;
+    border-radius: 5px;
+  }
+  
